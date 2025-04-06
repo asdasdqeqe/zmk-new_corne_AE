@@ -71,7 +71,7 @@
             display-name = "QWERTY";
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp F      &kp P      &kp B                             &kp UP                &kp J            &kp L      &kp U      &kp Y    &mt DOUBLE_QUOTES SQT  &kp BSPC
-&kp LEFT_SHIFT  &kp A  &kp R  &kp S      &kp T      &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp M            &kp N      &kp E      &kp I    &kp O                  &kp DELETE
+&kp LEFT_SHIFT  &kp A  &kp R  &kp S      &kp T      &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp M            &kp N      &kp E      &kp I    &mt PIPE O             &kp DELETE
 &kp LEFT_ALT    &kp Z  &kp X  &kp C      &kp D      &kp V      &kp SPACE              &kp DOWN              &kp K            &kp H      &kp COMMA  &kp DOT  &mt QUESTION SLASH     &kp ESC
                               &kp LCTRL  &kp ENTER  &lt 1 TAB                                               &lt 2 BACKSPACE  &kp SPACE  &kp RSHFT
             >;
@@ -85,7 +85,7 @@
 &kp TAB         &kp LEFT_ALT  &mo 2      &kp N7                    &kp N8                 &kp N9                                    &kp UP                &kp EXCLAMATION  &kp AT_SIGN     &kp HASH            &kp DOLLAR            &kp SEMI               &kp BSPC
 &kp LEFT_SHIFT  &kp UP_ARROW  &kp LCTRL  &mt PLUS KP_NUMBER_4      &mt MINUS KP_NUMBER_5  &kp N6                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp CARET        &kp AMPERSAND   &kp ASTERISK        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
 &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &mt ASTERISK KP_NUMBER_1  &mt SLASH KP_NUMBER_2  &kp N3             &kp SPACE              &kp DOWN              &kp EQUAL        &mt MINUS PLUS  &mt SLASH ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ESC
-                                         &mt EQUAL PERIOD          &kp ENTER              &lt 0 KP_NUMBER_0                                               &lt 2 BACKSPACE  &kp SPACE       &kp RSHFT
+                                         &mt EQUAL PERIOD          &kp ENTER              &lt 0 KP_NUMBER_0                                               &lt 0 BACKSPACE  &kp SPACE       &kp RSHFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -94,10 +94,10 @@
         Upper_layer {
             display-name = "Function_excel";
             bindings = <
-&kp TAB         &kp F1      &kp F2      &kp F3       &kp F4     &kp F5                            &kp UP                &kp F6           &kp F7     &kp F8     &kp F9   &kp F10   &kp BSPC
-&kp LEFT_SHIFT  &kp K_COPY  &kp K_CUT   &kp K_PASTE  &kp T      &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp M            &kp N      &kp E      &kp I    &kp F11   &kp DELETE
-&kp LEFT_ALT    &kp K_UNDO  &kp K_REDO  &kp C        &kp D      &kp V      &kp SPACE              &kp DOWN              &kp K            &kp H      &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                                        &kp LCTRL    &kp ENTER  &lt 0 TAB                                               &lt 0 BACKSPACE  &kp SPACE  &kp RSHFT
+&kp TAB         &kp F1      &kp F2      &kp F3       &kp F4     &kp F5                            &kp UP                &kp F6           &kp F7          &kp F8           &kp F9     &kp F10   &kp BSPC
+&kp LEFT_SHIFT  &kp K_COPY  &kp K_CUT   &kp K_PASTE  &kp T      &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &mkp LCLK        &mmv MOVE_UP    &mkp RCLK        &kp PG_UP  &kp F11   &kp DELETE
+&kp LEFT_ALT    &kp K_UNDO  &kp K_REDO  &kp C        &kp D      &kp V      &kp SPACE              &kp DOWN              &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PG_DN  &kp FSLH  &kp ESC
+                                        &kp LCTRL    &kp ENTER  &lt 0 TAB                                               &lt 0 BACKSPACE  &kp SPACE       &kp RSHFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
