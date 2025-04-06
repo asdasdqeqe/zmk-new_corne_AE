@@ -27,7 +27,7 @@ layers:
   - N
   - E
   - I
-  - O
+  - {t: O, h: '|'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
   - Z
@@ -95,7 +95,7 @@ layers:
   - {t: ., h: '='}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: KP 0, h: QWERTY, type: held}
-  - {t: '$$mdi:backspace$$', h: Function_excel}
+  - {t: '$$mdi:backspace$$', h: QWERTY}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   Function_excel:
@@ -121,10 +121,10 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - M
-  - N
-  - E
-  - I
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-right-click-outline$$
+  - PG UP
   - F11
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
@@ -135,10 +135,10 @@ layers:
   - V
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - K
-  - H
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - PG DN
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
